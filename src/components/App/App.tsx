@@ -78,7 +78,7 @@ export default function App() {
 
   return (
     <div>
-      <h1 className={css.title}>Search Image Service</h1>
+
       <SearchBar onSearch={handleSearch} />
 
       {isError && <ErrorMessage />}
